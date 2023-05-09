@@ -1,0 +1,42 @@
+body {
+    background-color: #341256;
+    color: #ffffff;
+}
+
+a {
+    text-decotarion: none;
+    color: #ffffff;
+}
+
+* {
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+ 
+ul {
+    margin: 0;
+    padding:0;
+}
+ 
+body header nav li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+body header nav li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+body header nav li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
